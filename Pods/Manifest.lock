@@ -1,0 +1,114 @@
+PODS:
+  - FeedKit (9.1.2)
+  - Kanna (6.0.1)
+  - Kingfisher (8.5.0)
+  - Masonry (1.1.0)
+  - SJBaseVideoPlayer (3.7.7.1):
+    - Masonry
+    - SJBaseVideoPlayer/AVPlayer (= 3.7.7.1)
+    - SJBaseVideoPlayer/Common (= 3.7.7.1)
+    - SJUIKit/AttributesFactory (>= 0.0.0.38)
+    - SJUIKit/ObserverHelper
+    - SJUIKit/Queues
+    - SJUIKit/SQLite3
+  - SJBaseVideoPlayer/AVPlayer (3.7.7.1):
+    - Masonry
+    - SJBaseVideoPlayer/Common
+    - SJUIKit/AttributesFactory (>= 0.0.0.38)
+    - SJUIKit/ObserverHelper
+    - SJUIKit/Queues
+    - SJUIKit/SQLite3
+  - SJBaseVideoPlayer/Common (3.7.7.1):
+    - Masonry
+    - SJBaseVideoPlayer/ResourceLoader
+    - SJUIKit/AttributesFactory (>= 0.0.0.38)
+    - SJUIKit/ObserverHelper
+    - SJUIKit/Queues
+    - SJUIKit/SQLite3
+  - SJBaseVideoPlayer/ResourceLoader (3.7.7.1):
+    - Masonry
+    - SJUIKit/AttributesFactory (>= 0.0.0.38)
+    - SJUIKit/ObserverHelper
+    - SJUIKit/Queues
+    - SJUIKit/SQLite3
+  - SJUIKit/AttributesFactory (0.0.0.59):
+    - SJUIKit/AttributesFactory/Deprecated (= 0.0.0.59)
+    - SJUIKit/AttributesFactory/UIKitText (= 0.0.0.59)
+  - SJUIKit/AttributesFactory/Deprecated (0.0.0.59)
+  - SJUIKit/AttributesFactory/UIKitText (0.0.0.59)
+  - SJUIKit/ObserverHelper (0.0.0.59)
+  - SJUIKit/Queues (0.0.0.59)
+  - SJUIKit/SQLite3 (0.0.0.59):
+    - SJUIKit/SQLite3/Core (= 0.0.0.59)
+    - SJUIKit/SQLite3/Protocol (= 0.0.0.59)
+    - YYModel
+  - SJUIKit/SQLite3/Core (0.0.0.59):
+    - SJUIKit/SQLite3/Protocol
+    - YYModel
+  - SJUIKit/SQLite3/Protocol (0.0.0.59):
+    - YYModel
+  - SJVideoPlayer (3.4.3):
+    - SJBaseVideoPlayer (>= 3.7.5)
+    - SJVideoPlayer/Common (= 3.4.3)
+    - SJVideoPlayer/ControlLayers (= 3.4.3)
+    - SJVideoPlayer/ResourceLoader (= 3.4.3)
+  - SJVideoPlayer/Common (3.4.3):
+    - Masonry
+    - SJBaseVideoPlayer (>= 3.7.5)
+    - SJUIKit/AttributesFactory
+    - SJVideoPlayer/ResourceLoader
+  - SJVideoPlayer/ControlLayers (3.4.3):
+    - SJBaseVideoPlayer (>= 3.7.5)
+    - SJVideoPlayer/Common
+  - SJVideoPlayer/ResourceLoader (3.4.3):
+    - SJBaseVideoPlayer (>= 3.7.5)
+  - SnapKit (5.7.1)
+  - SQLite.swift (0.16.0):
+    - SQLite.swift/standard (= 0.16.0)
+  - SQLite.swift/standard (0.16.0)
+  - SwiftSoup (2.11.3)
+  - YYModel (1.0.4)
+  - ZIPFoundation (0.9.20)
+
+DEPENDENCIES:
+  - FeedKit
+  - Kanna
+  - Kingfisher
+  - SJVideoPlayer
+  - SnapKit
+  - SQLite.swift
+  - SwiftSoup
+  - ZIPFoundation
+
+SPEC REPOS:
+  trunk:
+    - FeedKit
+    - Kanna
+    - Kingfisher
+    - Masonry
+    - SJBaseVideoPlayer
+    - SJUIKit
+    - SJVideoPlayer
+    - SnapKit
+    - SQLite.swift
+    - SwiftSoup
+    - YYModel
+    - ZIPFoundation
+
+SPEC CHECKSUMS:
+  FeedKit: 71653273ab08e618cd6fd1301ca08fc02dca6a9e
+  Kanna: d0bcd984b09852699f485aa467afb3f48828f803
+  Kingfisher: ff0d31a1f07bdff6a1ebb3ba08b8e6e567b6500c
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SJBaseVideoPlayer: b3122de12225b27b71bd9a8a1f08f4dcf2f4e5ec
+  SJUIKit: a40111941e408cc17d4c1c23495aa92999e814b0
+  SJVideoPlayer: 4f09814f58522e0975cb2dccfda925f6c8643467
+  SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
+  SQLite.swift: c914f905e13b6318cdc07fd66661db14c6cdd330
+  SwiftSoup: 959c9ac70d7053fbf476341bfac90ab228523f2a
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+  ZIPFoundation: dfd3d681c4053ff7e2f7350bc4e53b5dba3f5351
+
+PODFILE CHECKSUM: d1b1120c239a206b775701e57a82df4e05308871
+
+COCOAPODS: 1.16.2

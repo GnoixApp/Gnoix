@@ -1,0 +1,725 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A1EEAD92D064F6D9B4C9BB1 /* Pods_WFTVIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74D3E65E67E92D69718D2EB1 /* Pods_WFTVIOS.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F48A3B42E1A6BE200E78C38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F48A39D2E1A6BE100E78C38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F48A3A42E1A6BE100E78C38;
+			remoteInfo = WFTVIOS;
+		};
+		2F48A3BE2E1A6BE200E78C38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F48A39D2E1A6BE100E78C38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F48A3A42E1A6BE100E78C38;
+			remoteInfo = WFTVIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1789E113942D6C9F2B36861C /* Pods-WFTVIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WFTVIOS.release.xcconfig"; path = "Target Support Files/Pods-WFTVIOS/Pods-WFTVIOS.release.xcconfig"; sourceTree = "<group>"; };
+		2F48A3A52E1A6BE100E78C38 /* WFIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WFIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F48A3B32E1A6BE200E78C38 /* WFTVIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WFTVIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F48A3BD2E1A6BE200E78C38 /* WFTVIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WFTVIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DB8BFA9AF3B0B306D33247B /* Pods-WFTVIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WFTVIOS.debug.xcconfig"; path = "Target Support Files/Pods-WFTVIOS/Pods-WFTVIOS.debug.xcconfig"; sourceTree = "<group>"; };
+		74D3E65E67E92D69718D2EB1 /* Pods_WFTVIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WFTVIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		2F9897B62E1C107E009067B2 /* Exceptions for "WFTVIOS" folder in "WFTVIOS" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 2F48A3A42E1A6BE100E78C38 /* WFTVIOS */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		2F48A3A72E1A6BE100E78C38 /* WFTVIOS */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				2F9897B62E1C107E009067B2 /* Exceptions for "WFTVIOS" folder in "WFTVIOS" target */,
+			);
+			path = WFTVIOS;
+			sourceTree = "<group>";
+		};
+		2F48A3B62E1A6BE200E78C38 /* WFTVIOSTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			path = WFTVIOSTests;
+			sourceTree = "<group>";
+		};
+		2F48A3C02E1A6BE200E78C38 /* WFTVIOSUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			path = WFTVIOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F48A3A22E1A6BE100E78C38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A1EEAD92D064F6D9B4C9BB1 /* Pods_WFTVIOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F48A3B02E1A6BE200E78C38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F48A3BA2E1A6BE200E78C38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F48A39C2E1A6BE100E78C38 = {
+			isa = PBXGroup;
+			children = (
+				2F48A3A72E1A6BE100E78C38 /* WFTVIOS */,
+				2F48A3B62E1A6BE200E78C38 /* WFTVIOSTests */,
+				2F48A3C02E1A6BE200E78C38 /* WFTVIOSUITests */,
+				2F48A3A62E1A6BE100E78C38 /* Products */,
+				88E85B1C71459EF789477C3F /* Pods */,
+				DEAFB9D9199E2194D149D375 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2F48A3A62E1A6BE100E78C38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F48A3A52E1A6BE100E78C38 /* WFIOS.app */,
+				2F48A3B32E1A6BE200E78C38 /* WFTVIOSTests.xctest */,
+				2F48A3BD2E1A6BE200E78C38 /* WFTVIOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88E85B1C71459EF789477C3F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6DB8BFA9AF3B0B306D33247B /* Pods-WFTVIOS.debug.xcconfig */,
+				1789E113942D6C9F2B36861C /* Pods-WFTVIOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DEAFB9D9199E2194D149D375 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74D3E65E67E92D69718D2EB1 /* Pods_WFTVIOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F48A3A42E1A6BE100E78C38 /* WFTVIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F48A3C72E1A6BE200E78C38 /* Build configuration list for PBXNativeTarget "WFTVIOS" */;
+			buildPhases = (
+				95166A5C610BC2CB04750605 /* [CP] Check Pods Manifest.lock */,
+				2F48A3A12E1A6BE100E78C38 /* Sources */,
+				2F48A3A22E1A6BE100E78C38 /* Frameworks */,
+				2F48A3A32E1A6BE100E78C38 /* Resources */,
+				6DE4179FEE44675BD84F2591 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				2F48A3A72E1A6BE100E78C38 /* WFTVIOS */,
+			);
+			name = WFTVIOS;
+			productName = WFTVIOS;
+			productReference = 2F48A3A52E1A6BE100E78C38 /* WFIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F48A3B22E1A6BE200E78C38 /* WFTVIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F48A3CA2E1A6BE200E78C38 /* Build configuration list for PBXNativeTarget "WFTVIOSTests" */;
+			buildPhases = (
+				2F48A3AF2E1A6BE200E78C38 /* Sources */,
+				2F48A3B02E1A6BE200E78C38 /* Frameworks */,
+				2F48A3B12E1A6BE200E78C38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F48A3B52E1A6BE200E78C38 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2F48A3B62E1A6BE200E78C38 /* WFTVIOSTests */,
+			);
+			name = WFTVIOSTests;
+			productName = WFTVIOSTests;
+			productReference = 2F48A3B32E1A6BE200E78C38 /* WFTVIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2F48A3BC2E1A6BE200E78C38 /* WFTVIOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F48A3CD2E1A6BE200E78C38 /* Build configuration list for PBXNativeTarget "WFTVIOSUITests" */;
+			buildPhases = (
+				2F48A3B92E1A6BE200E78C38 /* Sources */,
+				2F48A3BA2E1A6BE200E78C38 /* Frameworks */,
+				2F48A3BB2E1A6BE200E78C38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F48A3BF2E1A6BE200E78C38 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2F48A3C02E1A6BE200E78C38 /* WFTVIOSUITests */,
+			);
+			name = WFTVIOSUITests;
+			productName = WFTVIOSUITests;
+			productReference = 2F48A3BD2E1A6BE200E78C38 /* WFTVIOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F48A39D2E1A6BE100E78C38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					2F48A3A42E1A6BE100E78C38 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					2F48A3B22E1A6BE200E78C38 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 2F48A3A42E1A6BE100E78C38;
+					};
+					2F48A3BC2E1A6BE200E78C38 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 2F48A3A42E1A6BE100E78C38;
+					};
+				};
+			};
+			buildConfigurationList = 2F48A3A02E1A6BE100E78C38 /* Build configuration list for PBXProject "WFTVIOS" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F48A39C2E1A6BE100E78C38;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 2F48A3A62E1A6BE100E78C38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F48A3A42E1A6BE100E78C38 /* WFTVIOS */,
+				2F48A3B22E1A6BE200E78C38 /* WFTVIOSTests */,
+				2F48A3BC2E1A6BE200E78C38 /* WFTVIOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F48A3A32E1A6BE100E78C38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F48A3B12E1A6BE200E78C38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F48A3BB2E1A6BE200E78C38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6DE4179FEE44675BD84F2591 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WFTVIOS/Pods-WFTVIOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WFTVIOS/Pods-WFTVIOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WFTVIOS/Pods-WFTVIOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95166A5C610BC2CB04750605 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WFTVIOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F48A3A12E1A6BE100E78C38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F48A3AF2E1A6BE200E78C38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F48A3B92E1A6BE200E78C38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F48A3B52E1A6BE200E78C38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F48A3A42E1A6BE100E78C38 /* WFTVIOS */;
+			targetProxy = 2F48A3B42E1A6BE200E78C38 /* PBXContainerItemProxy */;
+		};
+		2F48A3BF2E1A6BE200E78C38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F48A3A42E1A6BE100E78C38 /* WFTVIOS */;
+			targetProxy = 2F48A3BE2E1A6BE200E78C38 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2F48A3C52E1A6BE200E78C38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 836WW7U6VX;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2F48A3C62E1A6BE200E78C38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 836WW7U6VX;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphonesimulator;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		2F48A3C82E1A6BE200E78C38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DB8BFA9AF3B0B306D33247B /* Pods-WFTVIOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = WFTVIOS/WFTVIOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 836WW7U6VX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = WFTVIOS/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.oily.WFTVIOS;
+				PRODUCT_NAME = WFIOS;
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "WFTVIOS/WFTVIOS-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				XROS_DEPLOYMENT_TARGET = 2.5;
+			};
+			name = Debug;
+		};
+		2F48A3C92E1A6BE200E78C38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1789E113942D6C9F2B36861C /* Pods-WFTVIOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = WFTVIOS/WFTVIOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 836WW7U6VX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = WFTVIOS/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.oily.WFTVIOS;
+				PRODUCT_NAME = WFIOS;
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "WFTVIOS/WFTVIOS-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				XROS_DEPLOYMENT_TARGET = 2.5;
+			};
+			name = Release;
+		};
+		2F48A3CB2E1A6BE200E78C38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 836WW7U6VX;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(BUILT_PRODUCTS_DIR)",
+					"$(BUILT_PRODUCTS_DIR)/FeedKit",
+					"$(BUILT_PRODUCTS_DIR)/Kanna",
+					"$(BUILT_PRODUCTS_DIR)/Kingfisher",
+					"$(BUILT_PRODUCTS_DIR)/Masonry",
+					"$(BUILT_PRODUCTS_DIR)/SJBaseVideoPlayer",
+					"$(BUILT_PRODUCTS_DIR)/SJUIKit",
+					"$(BUILT_PRODUCTS_DIR)/SJVideoPlayer",
+					"$(BUILT_PRODUCTS_DIR)/SQLite.swift",
+					"$(BUILT_PRODUCTS_DIR)/SnapKit",
+					"$(BUILT_PRODUCTS_DIR)/SwiftSoup",
+					"$(BUILT_PRODUCTS_DIR)/YYModel",
+					"$(BUILT_PRODUCTS_DIR)/ZIPFoundation",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.oily.WFTVIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_INCLUDE_PATHS = "$(inherited) $(BUILT_PRODUCTS_DIR)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WFIOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WFIOS";
+				XROS_DEPLOYMENT_TARGET = 2.5;
+			};
+			name = Debug;
+		};
+		2F48A3CC2E1A6BE200E78C38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 836WW7U6VX;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(BUILT_PRODUCTS_DIR)",
+					"$(BUILT_PRODUCTS_DIR)/FeedKit",
+					"$(BUILT_PRODUCTS_DIR)/Kanna",
+					"$(BUILT_PRODUCTS_DIR)/Kingfisher",
+					"$(BUILT_PRODUCTS_DIR)/Masonry",
+					"$(BUILT_PRODUCTS_DIR)/SJBaseVideoPlayer",
+					"$(BUILT_PRODUCTS_DIR)/SJUIKit",
+					"$(BUILT_PRODUCTS_DIR)/SJVideoPlayer",
+					"$(BUILT_PRODUCTS_DIR)/SQLite.swift",
+					"$(BUILT_PRODUCTS_DIR)/SnapKit",
+					"$(BUILT_PRODUCTS_DIR)/SwiftSoup",
+					"$(BUILT_PRODUCTS_DIR)/YYModel",
+					"$(BUILT_PRODUCTS_DIR)/ZIPFoundation",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.oily.WFTVIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_INCLUDE_PATHS = "$(inherited) $(BUILT_PRODUCTS_DIR)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WFIOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WFIOS";
+				XROS_DEPLOYMENT_TARGET = 2.5;
+			};
+			name = Release;
+		};
+		2F48A3CE2E1A6BE200E78C38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 836WW7U6VX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.oily.WFTVIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = WFTVIOS;
+				XROS_DEPLOYMENT_TARGET = 2.5;
+			};
+			name = Debug;
+		};
+		2F48A3CF2E1A6BE200E78C38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 836WW7U6VX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.oily.WFTVIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = WFTVIOS;
+				XROS_DEPLOYMENT_TARGET = 2.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F48A3A02E1A6BE100E78C38 /* Build configuration list for PBXProject "WFTVIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F48A3C52E1A6BE200E78C38 /* Debug */,
+				2F48A3C62E1A6BE200E78C38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F48A3C72E1A6BE200E78C38 /* Build configuration list for PBXNativeTarget "WFTVIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F48A3C82E1A6BE200E78C38 /* Debug */,
+				2F48A3C92E1A6BE200E78C38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F48A3CA2E1A6BE200E78C38 /* Build configuration list for PBXNativeTarget "WFTVIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F48A3CB2E1A6BE200E78C38 /* Debug */,
+				2F48A3CC2E1A6BE200E78C38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F48A3CD2E1A6BE200E78C38 /* Build configuration list for PBXNativeTarget "WFTVIOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F48A3CE2E1A6BE200E78C38 /* Debug */,
+				2F48A3CF2E1A6BE200E78C38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F48A39D2E1A6BE100E78C38 /* Project object */;
+}
